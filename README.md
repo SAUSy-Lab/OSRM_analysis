@@ -51,7 +51,9 @@ And without further Apu, here are some python
 
 trip_geom.py = batch outputs trip geometries and travel attributes for one-to-many analysis
 
+matrix.py = simply OD matrix from a point .csv file
 
+big_matrix.py = attempting to code around the limitations on big OD matrices (still working on this)
 
 
 --
