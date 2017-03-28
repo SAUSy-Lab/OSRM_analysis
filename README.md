@@ -49,7 +49,7 @@ http://project-osrm.org/docs/v5.5.2/api/#general-options
 
 #### Batch Scripts:
 
-And without further Apu, here are some python
+And without further Apu, here are some python scripts for batch calcs...
 
 trip_geom.py = batch outputs trip geometries and travel attributes for one-to-many analysis
 
