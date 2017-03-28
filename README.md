@@ -32,6 +32,8 @@ OSRM takes OpenStreetMap (OSM) data as the input to build the network graph.
 
 The script, osm_from_extents.py, contains a function to download OSM data via bounding box extents with wget. It has an extension of grab the extents of list of coordinates in a .csv table.
 
+Then run the following to get the graph going in a local server
+
 ```
 osrm-extract osrm/map.osm.xml -p osrm/profiles/bicycle.lua
 osrm-contract osrm/map.osrm
