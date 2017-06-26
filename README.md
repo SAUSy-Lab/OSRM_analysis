@@ -51,11 +51,15 @@ http://project-osrm.org/docs/v5.5.2/api/#general-options
 
 And without further Apu, here are some python scripts for batch calcs...
 
-trip_geom.py = batch outputs trip geometries and travel attributes for one-to-many analysis
+**trip_geom.py** = batch outputs trip geometries and travel attributes for one-to-many analysis
 
-matrix.py = simply OD matrix from a point .csv file
+**one_to_many.py** = travel times from one origin to many destinations - with option to expand into an OD matrix
 
-big_matrix.py = attempting to code around the limitations on big OD matrices (still working on this)
+**matrix.py** = simply OD matrix from a point .csv file
+
+**big_matrix.py** = attempting to code around the limitations on big OD matrices (still working on this)
+
+**batch_travel_times.py** = travel times for many OD pairs
 
 
 --
